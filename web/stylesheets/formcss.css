@@ -1,0 +1,170 @@
+body{
+    background-image: url('E://pencil.jpg');
+}
+
+#bigdiv {
+    position:relative;
+    border: 1px solid black;
+    left: 10%;
+    top: 10%;
+    width: 80%;
+    height: auto;
+    padding : 15px;
+    opacity: .8;
+    background-color: white;
+
+    border-radius: 10px;
+    font-family: Ubuntu;
+}
+
+.question {
+    border-radius: 10px;
+    position: relative;
+    border-radius: 5px;
+    padding: 10px; 
+    background: #FEF5EC;
+    margin: 5px;
+    border: 2px solid transparent;
+
+
+    -moz-border-image: -moz-linear-gradient(top, #e3e3e3 0%, #a7a7a7 100%);
+    -webkit-border-image: -webkit-linear-gradient(top, #e3e3e3 0%, #a7a7a7 100%);
+    border-image: linear-gradient(to bottom, #e3e3e3 0%, #a7a7a7 100%);
+
+    border-image-slice: 1;
+    font-family: Ubuntu;
+}
+
+.tb {
+    border: 2px solid #dadada;
+    width: 300px;
+    border-radius: 7px;
+    height: 35px;
+    font-size: 1em;
+    font-family: Ubuntu;
+    margin-top: 15px;
+}
+
+.tb:focus {
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+    z-index: 5;
+}
+
+.helpText {
+    color: #7b7b7b;
+    font-size: 0.95em;
+    padding-left: 10px;
+    margin: 4px;
+    z-index: 5;
+    font-family: Ubuntu;
+}
+
+.tb-big-text {
+    border: 2px solid #dadada;
+    width: 300px;
+    border-radius: 7px;
+    height: 35px;
+    font-size: 1em;	
+    z-index: 5;
+    font-family: Ubuntu;
+}
+
+.tb-big-text:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+    font-family: Ubuntu;
+    z-index: 5;
+}
+
+.form-name {
+    font-size: 3em;
+    font-family: Ubuntu;
+}
+
+.questionHeading {
+    color: black;
+    //font-family: Lucida Console;
+    font-family: Ubuntu;
+    font-weight: bold;
+    z-index: 5;
+    font-size: 1.2em;
+}
+
+input [type="file"] {
+    border: 2px solid #dadada;
+    width: 300px;
+    border-radius: 7px;
+    height: 35px;
+    font-size: 1em;
+    font-family: Ubuntu;
+    margin-top: 15px;
+
+}
+table{
+
+    border: 2px solid black;
+    font-size: 1em;
+    font-family: Ubuntu;
+}
+td{
+    margin: 0;
+    border: 2px solid black;
+}
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+th{
+    background-color: aqua;
+}
+td{
+    background-color: aliceblue;
+}
+input[type="button"]:hover, input[type="submit"]:hover{
+    height: 30px;
+    background-color: #ff9838;
+    color: white;
+    outline: 0;
+    border-radius: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+input[type="button"],input[type="submit"]{
+    height: 30px;
+    background-color: #46ff7a;
+    color: white;
+    outline: 0;
+    border-radius: 10px;
+    text-shadow: none;
+    border: 1px;
+    border-color: black;
+    box-shadow: none;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+input[type="button"]:active {
+    color: black;
+    text-shadow: none;
+    border: 1px;
+    border-color: black;
+    box-shadow: none;
+}
+.card{
+    background-color: #ddd;
+    height: 40px;
+    opacity: 0.7;
+    border: 1px solid black;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
